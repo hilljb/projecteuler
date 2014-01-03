@@ -2,16 +2,18 @@
 
 import time
 
-def sum_3_5(n):
-    sum = 0
-    for i in range(3,n,3): sum += i
-    for i in range(5,n,5):
-        if i % 3 != 0: sum += i
-    return sum
-
 start = time.time()
-for i in range(100000):
-    sum = sum_3_5(1000)
-elapsed = (time.time() - start)
 
-print "result %s returned in %s seconds for 100000 iterations." % (sum,elapsed)
+s = 0
+
+# add in all multiples of 3
+for i in range(3,1000,3): s += i
+
+# Add in multiples of 5 that are no also multiples of 3.
+# This includes numbers of the form 5+15n and 10+15n between 0 and 1000.
+for i in range(5,1000,15): s += i
+for i in range(10,1000,15): s += i
+
+elapsed = time.time() - start
+
+print "result %s returned in %s seconds" % (s,elapsed)
