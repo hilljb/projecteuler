@@ -22,5 +22,4 @@ while True:
 
 elapsed = time.time() - start
 
-print s
-print elapsed
+print "result %s found in %s seconds" % (s, elapsed)
