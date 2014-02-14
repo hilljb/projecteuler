@@ -3,7 +3,7 @@ Project Euler Solutions
 
 This is just a collection of Project Euler solutions. The code is written in several languages: Python,
 Cython, Sage, C, and C++. I started solving these a few years ago and am just now getting around to placing
-them on Github.
+them on Github. As of January, 2014, I have solutions to 50 problems.
 
 In most cases, I have several solutions - either multiple solutions in one language (to show
 differences in complexity/timings) or solutions in multiple languages. The Python is made efficient
