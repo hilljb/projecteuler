@@ -8,3 +8,4 @@ two 3-digit numbers.
 Solutions are provided in Python, Cython, and C. The Cython versions are intended to run directly in
 Sage.
 
+See http://code.jasonbhill.com/c/project-euler-problem-4/ for more detail.
