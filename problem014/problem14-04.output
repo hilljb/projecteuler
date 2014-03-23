@@ -1,0 +1,5 @@
+$ time ./problem-14
+837799 found in 38.000000 seconds.
+ 
+real    0m38.871s
+user    0m38.120s
