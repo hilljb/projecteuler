@@ -1,0 +1,7 @@
+$ time ./problem015-01 
+There are 137846528820 paths
+
+real    13m54.354s
+user    13m54.380s
+sys 0m0.052s
+
